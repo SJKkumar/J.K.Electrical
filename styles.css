@@ -1,323 +1,88 @@
-#top{
-    background-color: black;
-    
-}
-#front-top{
-    display: grid;
-    grid-template-columns: 1fr ;
-    z-index: 9;
-    
-}
-#wire{ 
-     display: inline-block;
-     width:100%;
-     position: relative;
-
-}
-#out1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 650px;
-    height: 250px;
-    border: 2px;
-    border-style: solid;
-    border-color: darkorange;
-}
-/* JK */
-#out1 h1{
- color: #ffffff;
- font-family:Arial, Helvetica, sans-serif;
- font-weight:900;
- font-size: 67px;
- letter-spacing:4px;
-}
-#out2{
-    padding: 8px;
-    border: 2px;
-    border-style: dashed;
-    border-color: darkorange;
-}
-#out2 h1{
-    font-size: 40px;
-    
-}
-#out3{
-    padding: 15px;
-    border: 2px;
-    border-style: dashed;
-    border-color: rgb(239, 235, 231);
-}
-#op1{
-    padding-left: 100px;
-    padding-top: 100px ;
-}
-
-#op2{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding :53px 40px 120px 100px;
-    
-}
-#line{ 
-    width: 100%;
-    position: absolute;
-    top: 300px;
-    left: 0;
-
-
-}
-#line2{
-    width: 79%;
-    position: absolute;
-    top: 500px;
-    left: 21%   ;
-}
-#plug{
-    width: 150px;
-    position: absolute;
-    top: 450px;
-    left: 20%   ;
-    z-index: 9;
-}
-#line hr{
-    
-    border-top-width: 0px;
-    margin-top: 0px;
-    background-color: darkorange;
-    height: 10px;
-    
-}
-#line2 hr{
-    border-top-width: 0px;
-    margin-top: 0px;
-    background-color: darkorange;
-    height: 10px;
-
-}
-/* ------serivice------ */
 html{
-    font-size: 1rem;
+  font-size: 1rem;
+}
+#ElectricalImg img {
+  width: 41vw;
+  height: 54vh;
+}
+#Scon{
+    padding: 50px;
+    
+}
+
+.services-order{
+    padding: 50px 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows:minmax(150px,auto);
+    gap: 10px;
+}
+.one {
+    padding-right: 23rem;
+    grid-column: 1 / 4;
+    grid-row: 1;
   }
-  #ElectricalImg img {
-    width: 41vw;
-    height: 54vh;
+.two {
+    padding-top: 10rem;
+    grid-column: 1 / 3;
+    grid-row: 1 / 8;
   }
-  #Scon{
-      padding: 50px;
+.three {
+    
+    grid-column: 3 / 4;
+    grid-row: 1 / 8;
+    position: relative;
+  }
+.Sname h2{
+  margin: 0px 50px 0px 0px;
+  font-size: 5rem;
+  text-align: justify; 
       
-  }
-  
-  .services-order{
-      padding: 50px 70px;
-      display: grid;
-      grid-template-columns: repeat(3,1fr) ;
-      grid-template-rows:minmax(150px,auto);
-      gap: 10px;
-  }
-  .one {
-      padding-right: 23rem;
-      grid-column: 1 / 4;
-      grid-row: 1;
-    }
-  .two {
-      padding-top: 10rem;
-      grid-column: 1 / 3;
-      grid-row: 1 / 8;
-    }
-  .three {
-      
-      grid-column: 3 / 4;
-      grid-row: 1 / 8;
-      position: relative;
-    }
-  .Sname h2{
+}
+.Spara p{
     margin: 0px 50px 0px 0px;
-    font-size: 5rem;
-    text-align: justify; 
-        
+    font-size: 2rem;
+    color: #784026;
+    text-align: justify;
+}
+.circle {
+    margin-top: -630px;
+    margin-left: -57px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px dashed darkorange;
+    
+  }	
+  .circle2 {
+    margin-top: -205px;
+    margin-left:75%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    border: 4px dashed #784026;
+    
+  }	
+  .circle3 {
+    border-top-width: 0px;
+    margin-top: -591px;
+    margin-left:89%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    border: 3px dashed rgb(109, 109, 108);
+    
+    
+  }	
+  @media only screen and (min-width:300px) and (max-width: 650px) 
+{
+  html{
+    font-size: 0.5rem;
   }
-  .Spara p{
-      margin: 0px 50px 0px 0px;
-      font-size: 2rem;
-      color: #784026;
-      text-align: justify;
-  }
-  .circle {
-      margin-top: -630px;
-      margin-left: -57px;
-      position: absolute;
-      z-index: -1;
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      border: 3px dashed darkorange;
-      
-    }	
-    .circle2 {
-      margin-top: -205px;
-      margin-left:75%;
-      position: absolute;
-      z-index: -1;
-      border-radius: 50%;
-      height: 290px;
-      width: 290px;
-      border: 4px dashed #784026;
-      
-    }	
-    .circle3 {
-      border-top-width: 0px;
-      margin-top: -591px;
-      margin-left:89%;
-      position: absolute;
-      z-index: -1;
-      border-radius: 50%;
-      height: 130px;
-      width: 130px;
-      border: 3px dashed rgb(109, 109, 108);
-      
-      
-    }	
-
-/* ----300 to 600px---- */
-@media only screen and (min-width: 300px) and (max-width: 600px) {
-    #top{
-        background-color: black;
- 
-    }
-    #op1 {
-        margin: auto;
-        padding-left: 1px;
-        padding-top: 41px;
-    }
-    #op2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row-reverse;
-        padding: 60px 25px 120px 20px;
-    }
-    #out1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 366px;
-        height: 186px;
-        border: 2px;
-        border-style: solid;
-        border-color: darkorange;
-    }
-    #out1 h1 {
-        color: #ffffff;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 900;
-        font-size: 35px;
-        letter-spacing: 4px;
-    }
-    #line {
-        width: 100%;
-        position: absolute;
-        top: 193px;
-        left: 0;
-    }
-    #out2 {
-        padding: 5px;
-        border: 2px;
-        border-style: dashed;
-        border-color: darkorange;
-    }
-    #out2 h1 {
-        font-size: 15px;
-    }
-    #line2 {
-        width: 79%;
-        position: absolute;
-        top: 401px;
-        left: 21%;
-    }
-    #plug {
-        width: 120px;
-        position: absolute;
-        top: 359px;
-        left: 20%;
-        z-index: 9;
-    }
-     /* --service-- */
-
-    .circle {
-        margin-top: -25%;
-        margin-left: -40%;
-        position: absolute;
-        z-index: -1;
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
-
-        border: 3px dashed darkorange;
-        
-      }
-      .circle2{
-        margin-top: 23%;
-        margin-left:40%;
-        position: absolute;
-        z-index: -1;
-        border-radius: 50%;
-         width: 80px;
-         height: 80px;
-      }
-      .circle3{
-        margin-top: -28%;
-        margin-left:45%;
-        position: absolute;
-        z-index: -1;
-        border-radius: 50%;
-        width: 35px;
-        height: 35px;
-
-      }
-      .services-order{
-        padding: 10px;
-        display: grid;
-        grid-template-rows: 5fr;
-        gap: 10px;
-      }
-      #Scon{
-        padding: 3px;
-      }
-      .Sname h2{
-        padding: 0;
-      }
-      .Spara p{
-        padding: 0;
-        margin: 0;
-        text-align:justify;
-      }
-    .one {
-        padding-right: 0;
-         grid-row: 1/2;
-      }
-    .two {
-        padding-top: 1rem;
-        grid-row: 5/7;
-        grid-column: 1/4;
-      }
-    .three {
-        grid-row: 3/5;
-        grid-column: 1/4;
-        position: relative;
-        
-      }
-      #ElectricalImg
-      {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #ElectricalImg img {
-        width: 20em;
-        height: auto;
-    }  
-
-
 }

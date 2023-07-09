@@ -98,10 +98,13 @@
 
 }
 /*--------services--------*/
+/* --------Electrical-------- */
 html{
     font-size: 1rem;
   }
   #ElectricalImg img {
+    position: relative;
+    z-index: 5;
     width: 41vw;
     height: 54vh;
   }
@@ -149,22 +152,21 @@ html{
       margin-top: -630px;
       margin-left: -57px;
       position: absolute;
-      z-index: -1;
+      z-index: 2;
       border-radius: 50%;
       height: 200px;
       width: 200px;
-      border: 3px dashed darkorange;
-      
+      border: 3px dashed #784026;
     }	
     .circle2 {
       margin-top: -205px;
       margin-left:75%;
       position: absolute;
-      z-index: -1;
+      z-index: 2;
       border-radius: 50%;
       height: 290px;
       width: 290px;
-      border: 4px dashed #784026;
+      border: 4px dashed darkorange;
       
     }	
     .circle3 {
@@ -172,13 +174,13 @@ html{
       margin-top: -591px;
       margin-left:89%;
       position: absolute;
-      z-index: -1;
+      z-index: 2;
       border-radius: 50%;
       height: 130px;
       width: 130px;
       border: 3px dashed rgb(109, 109, 108);
-    }	
- .circle4 {
+    }
+    .circle4 {
         border-top-width: 0px;
         margin-top: -50px;
         margin-left:-50px;
@@ -189,7 +191,8 @@ html{
         width: 90px;
         border: 3px dashed rgb(70, 70, 70);
       }
-/*-----painting-----*/
+
+    /*-----painting-----*/
      
     #Painting{
         z-index: -1;
@@ -321,7 +324,7 @@ html{
         width: 60px;
         height: 60px;
 
-        border: 3px dashed darkorange;
+        border: 3px dashed #784026;
         
       }
       .circle2{
@@ -343,7 +346,7 @@ html{
         height: 35px;
 
       }
-    .circle4{
+      .circle4{
         margin-top: 26%;
         margin-left: -42%;
         height: 50px;
@@ -453,4 +456,6 @@ html{
         top: 588px;
         left: 21%;
     }
+
+   
 }

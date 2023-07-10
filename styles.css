@@ -144,12 +144,12 @@ html{
   }
   .Spara p{
       margin: 0px 50px 0px 0px;
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #784026;
       text-align: justify;
   }
   .circle {
-      margin-top: -630px;
+      margin-top: -550px;
       margin-left: -57px;
       position: absolute;
       z-index: 2;
@@ -171,7 +171,7 @@ html{
     }	
     .circle3 {
       border-top-width: 0px;
-      margin-top: -591px;
+      margin-top: -521px;
       margin-left:89%;
       position: absolute;
       z-index: 2;
@@ -200,7 +200,7 @@ html{
         background-color: rgba(255, 140, 0, 0.709);
     }
     .rectangle {
-        margin-top: -630px;
+        margin-top: -520px;
         margin-left: -57px;
         position: absolute;
         z-index: 2;
@@ -231,7 +231,7 @@ html{
       }
       .rectangle4 {
         border-top-width: 0px;
-        margin-top: -591px;
+        margin-top: -520px;
         margin-left:89%;
         position: absolute;
         z-index: 2;
@@ -239,7 +239,69 @@ html{
         width: 120px;
         border: 3px dashed rgb(255, 255, 255);
       }
+  /* ----Plumbing---- */
+  #Plumbing{
+    background-color: #ffffff;
+  }
+  .hexagon {
+    margin-top: -530px;
+    margin-left: -10%;
+    width: 180px;
+  }
 
+  .hexagon2{
+    margin-top: 220px;
+    margin-left: -6%;
+    width: 110px;
+  }
+
+.hexagon3{
+    margin-top: -200px;
+    margin-left: 83%;
+    width: 200px;
+  }
+  .hexagon4{
+    margin-top: -640px;
+    margin-left: 90%;
+    width: 120px;
+  }
+  /* ---Civil work--- */
+  #Civil{
+    background-color:#71706f ;
+  }
+  .square{
+   margin-top: -510px;
+   margin-left: -5%;
+   width: 100px; ;
+   height: 100px;
+   border-color: aliceblue;
+   border-style: dashed;
+  }
+  .square2{
+    margin-top: -80px;
+   margin-left: 95%;
+    width: 60px; 
+   height: 60px;
+   border-color: rgb(221, 152, 89);
+   border-style: dashed;
+  }
+  .square3{
+    margin-top: 320px;
+    margin-left: 90%;
+    width: 150px; ;
+   height: 150px;
+   border-color: rgb(250, 175, 36);
+   border-style: dashed;
+  }
+  .square4{
+    margin-top: -100px;
+    margin-left: -4%;
+    width: 80px; 
+   height: 80px;
+   border-color: #ec7636;
+   border-style: dashed;
+  }
+  /* ============================================================================================================================ */
     @media only screen and (min-width:300px) and (max-width: 650px) 
   {
     html{

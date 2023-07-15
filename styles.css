@@ -3,7 +3,7 @@ body{
 }
 /* ----------------welcome---------------- */
 #welcome{
-background-color: #ededed;
+background-color: #023047;
 display: flex;
 justify-content: space-evenly;
 }
@@ -22,33 +22,81 @@ justify-content: space-evenly;
 .WC h1{
  font-size: 70px;
  font-family: 'Libre Baskerville', serif;
- color: hwb(0 5% 95%);
+ color: #ffb703;
  margin: 0;
 }
 .WC h3{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(168, 167, 167);
+  color: #219ebc;
   margin: 0;
 }
 .WC p{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20PX;
-  color: #898785;
+  color: #219ebc;
 }
-/* --------------------300 to 650px------------------ */
-@media only screen and (min-width: 300px) and (max-width: 650px)
+/* ----------------Why choose us?------------------ */
+#advantage{
+  padding: 50px;
+  text-align: center;
+}
+#advantage h3{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(12, 12, 12);
+  font-size: 3rem;
+
+}
+#OutCard{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  justify-items: center;
+  padding: 10px;
+
+}
+.card{
+  border: 2px;
+  border-radius: 10px;
+  border-color: #3c3c3b;
+  background-color: #023047;
+  width: 360px;
+  height: auto;
+  text-align: center;
+}
+.card img{
+  width: 270px;
+  height:250px ;
+  border-radius: 10px;
+  background-color: #ffb703;
+}
+.card h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  
+}
+.card p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+  text-align: center;
+  padding: 13px 50px 10px 47px;
+  color: #ffffff;
+}
+/* ------------------------------------------------------------- */
+/* --------------------300 to 899px------------------ */
+@media only screen and (min-width: 300px) and (max-width: 899px)
  {
+    /*-------- welcome */
     #welcome{
       
     display: block;
     }
     #WI img{
-     width: 351px;
+     width: 300px;
      padding: 0;
     }
     #WI{
       text-align: center;
-      padding:20px;
 
     }
     .WC{
@@ -65,11 +113,59 @@ justify-content: space-evenly;
       font-size: 14PX;
 
      }
-  }
+     
+    /* ------------Why Choose Our Company */
+    #advantage{
+      padding: 10px;
+    }
+    #advantage h3{
+     
+      font-size: 30px;
+    
+    }
+    #OutCard
+    {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3,1fr);
+    }
+    .card{
+      border: 2px;
+      border-radius: 10px;
+      border-color: #3c3c3b;
+      background-color: #023047;
+      width: 300px;
+      height: auto;
+      text-align: center;
+    }
+    .card{
+      width: 255px;
 
- /* --------------------651 to 1030px------------------ */
- @media only screen and (min-width: 651px) and (max-width: 1030px)
+    }
+    .card img{
+      width: 210px;
+      height:210px ;
+    
+    }
+    .card h4{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1rem;
+      color: #ffffff;
+      
+    }
+    .card p{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      padding: 13px 50px 10px 47px;
+      color: #ffffff;
+    }
+
+  }
+/* ----------------------------------------------------------- */
+ /* --------------------900 to 1030px------------------ */
+ @media only screen and (min-width: 900px) and (max-width: 1300px)
  {
+   /*-------- welcome */
   #welcome{
     display: block;
     padding: 20px 0 20px 0;
@@ -95,4 +191,50 @@ justify-content: space-evenly;
       font-size: 14PX;
 
      }
- }
+      /* ------------Why Choose Our Company */
+    #advantage{
+      padding: 10px;
+    }
+    #advantage h3{
+     
+      font-size: 1rem;
+    
+    }
+    #OutCard
+    {
+      
+    }
+    .card{
+      border: 2px;
+      border-radius: 10px;
+      border-color: #3c3c3b;
+      background-color: #023047;
+      width: 300px;
+      height: auto;
+      text-align: center;
+    }
+    .card{
+      width: 255px;
+
+    }
+    .card img{
+      width: 210px;
+      height:210px ;
+    
+    }
+    .card h4{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1rem;
+      color: #ffffff;
+      
+    }
+    .card p{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      padding: 13px 50px 10px 47px;
+      color: #ffffff;
+    }
+
+  }
+ 

@@ -108,7 +108,7 @@ justify-content: space-evenly;
   display: flex;
   column-gap:35%;
 }
-li{
+#Best li{
   margin: 0;
 	padding: 36px 0 36px 40px;
 	list-style: none;
@@ -136,7 +136,7 @@ li{
   justify-items: center;
 }
 .ServicesCard{
-  background-color: #d62828;
+  background-color: #e76f51;
   width:290px ;
   border-radius: 20px;
   display: flex;
@@ -147,7 +147,7 @@ li{
   padding: 45px;
   border-radius: 20px;
   width: 200px;
-  background-color: #e76f51;
+  background-color: #023047;
 }
 .ServicesCard h4{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -291,7 +291,7 @@ li{
   justify-content: center;
   column-gap:10%;
 }
-li{
+#Best li{
   margin: 0;
 	padding: 36px 0 36px 40px;
 	list-style: none;

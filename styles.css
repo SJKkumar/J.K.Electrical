@@ -454,12 +454,12 @@ justify-content: space-evenly;
 	 /* -----------Civil Contract-------------- */
   #Civil{
     margin-top: 3%;
-    padding: 0px;
+    padding: 10px;
     gap: 0px;
   }
   
   #Civil img{
-    padding-top: 30px;
+    padding-top: 10px;
     width: 350px;
   }
   #Civil h2{
@@ -470,7 +470,7 @@ justify-content: space-evenly;
     font-size: 23px;
   }
   .C1{
-    padding: 10px;
+    padding: 50px;
   }
  
   .Carea{

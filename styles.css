@@ -157,16 +157,39 @@ li{
 }
 /* --------------Civil Contract------------------ */
 #Civil{
-  background-color: #d62828;
+  margin-top: 30px;
+  background-color: #e76f51;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 50px;
 }
 
 #Civil img{
   width: 600px;
+}
+#Civil h2{
+  color: #023047;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4rem;
+}
+#Civil p{
+  color: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+}
+.C1{
+  padding: 10px 10px 146px 86px;}
+.Carea{
+  display: flex;
+  gap: 35%;
+}
+.Carea li{
+  font-size: 23px;
+  color: #4a1d12;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 /* ------------------------------------------------------------- */
 /* --------------------300 to 899px------------------ */
@@ -294,6 +317,42 @@ li{
  .ServicesCard h4{
    font-size: 2em;
  }
+/* -----------Civil Contract-------------- */
+ #Civil{
+  margin-top: 3%;
+  padding: 0px;
+  flex-direction: column;
+  gap: 0px;
+}
+
+#Civil img{
+  padding-top: 30px;
+  width: 350px;
+}
+#Civil h2{
+
+  font-size: 48px;
+}
+#Civil p{
+  font-size: 23px;
+}
+.C1{
+  order: 2;
+  padding: 10px;
+}
+.C2{
+  order: 1;
+}
+.Carea{
+  display: flex;
+  gap: 0;
+  justify-content: center;
+
+}
+.Carea li{
+  font-size: 16spx;
+}
+	 
 }
 /* ----------------------------------------------------------- */
  /* --------------------900 to 1030px------------------ */
@@ -392,5 +451,36 @@ li{
    grid-template-columns: repeat(2,1fr);
    row-gap: 60px;
  }
+	 /* -----------Civil Contract-------------- */
+  #Civil{
+    margin-top: 3%;
+    padding: 0px;
+    gap: 0px;
+  }
+  
+  #Civil img{
+    padding-top: 30px;
+    width: 350px;
+  }
+  #Civil h2{
+  
+    font-size: 48px;
+  }
+  #Civil p{
+    font-size: 23px;
+  }
+  .C1{
+    padding: 10px;
+  }
+ 
+  .Carea{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+  
+  }
+  .Carea li{
+    font-size: 16spx;
+  }
 }
  

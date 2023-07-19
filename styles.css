@@ -328,6 +328,10 @@ padding-bottom: 90PX ;
 #map h4{
   font-size: 2rem;
 }
+#myiframe{
+  width:400px;
+  height:250px; 
+}
 /* Responsiveness */
 @media only screen and (min-width: 899px) {
   .nav{
@@ -541,7 +545,14 @@ padding-bottom: 90PX ;
 #map{
   order: 2;
   margin-bottom: 100px;
+  width: 375px;
+  height: 365px;
 }
+#myiframe
+ {
+    width: 342px;
+    height: 224px;
+ }
  }
 /* ----------------------------------------------------------- */
  /* --------------------900 to 1300px------------------ */

@@ -7,12 +7,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>J.K.ELECTRICAL</title>
+  <title>Document</title>
 </head>
 <body>
-  <!--Navigation bar-->
+<!--Navigation bar-->
 <header class="header">
   <!-- Logo -->
   <a href="#" class="logo">
@@ -27,24 +29,26 @@
   <!-- Menu -->
   <nav class="nav">
       <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a> </li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#welcome">Home</a></li>
+          <li><a href="#Services">Services</a> </li>
+          <li><a href="#Contact">Contact</a></li>
       </ul>
   </nav>
 </header>
 <!-- welcome -->
-<section id="welcome">
-  <div class="WC"> 
+  <section id="welcome">
+   <div class="WC"> 
       <h3>Handyman work, Civil contract, Home applaince repair.</h3>     
       <p>Find our amazing services for your Home & Office.</p>
    </div>
+
    <div id="WI">
      <img src="img\welcome.png" alt="electrical"> 
    </div>
-</section>
+
+  </section>
 <!--Why Choose Our Company-->
-<section id="advantage">
+  <section id="advantage">
    <div>
       <h3>Why Choose Our Company For Your Home Repairs?</h3>
    </div>
@@ -73,10 +77,10 @@
               specific needs and expectations.</p>
       </div>
    </div>
+   
   </section>
-
 <!-- Reliable, Trusted, and Best Services -->
-<section id="Best">
+  <section id="Best">
     <div class="B1">
      <img src="img/electrical.png" alt="">
     </div>
@@ -84,7 +88,7 @@
       <h4>Reliable, Trusted, and Best Services</h4>
       <p>Our handyman have exprience in differt field
           like electrical, plumbing, etc 
-          and work on various area </p>
+          and worked on various area </p>
           <div class="area">
                <ul>
                   <li>Office</li>
@@ -97,8 +101,8 @@
             
           </div>
     </div>
-</section>
-  <!-- Our Services -->
+  </section>
+<!-- Our Services -->
   <section id="Services">
   <div>
    <h3>Our Services</h3>
@@ -122,11 +126,13 @@
      </div>
   </div>
   </section>
- <!-- Civil Contract -->
+<!-- Civil Contract -->
  <section id="Civil">
    <div class="C1">
        <h2>Civil Contract</h2>
-       <p>Build your dream house with us. we are a startup construction company dedicated to delivering high-quality civil work services. your trusted partner for comprehensive civil work solutions!</p>
+       <p>Build your dream house with us. we are a startup construction company 
+         dedicated to delivering high-quality civil work services. your trusted 
+         partner for comprehensive civil work solutions!</p>
        <div class="Carea">
          <ul>
             <li>Masonry Work</li>
@@ -142,5 +148,42 @@
       <img src="img\civil.png" alt="Civil">
    </div>
  </section>
+ <!-- Contact -->
+ <footer id="Contact">
+  <div id="map">
+    <h4>Location</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.97338092188136!2d80.24604027336655!3d13.0721644918859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526670528ca2ad%3A0x26dabead32f4be45!2s5-3%2C%20Mangalapuram%20Street%2012th%2C%20Mukta%20Gardens%2C%20Brindavanam%2C%20Chennai%2C%20Tamil%20Nadu%20600008!5e0!3m2!1sen!2sin!4v1689741861856!5m2!1sen!2sin" 
+    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <br><i class="fa fa-map-marker" style="width:30px"></i> #1 Mangalapuram 12th street Chetpet,<br> Chennai-600031.<br>
+  </div>
+  <div id="form">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">CONTACT</h2>
+      <p class="w3-opacity w3-center"><i>Drop a note!</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+         
+          <i class="fa fa-phone" style="width:30px"></i> Phone: <a href="tell:+919444351437">+91 9444351437</a><br>
+          <i class="fa fa-envelope" style="width:30px"></i> Email: <a href="mailto:classicsenthil123@gmail.com">classicsenthil123@gmail.com</a><br>
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
 </body>
 </html>

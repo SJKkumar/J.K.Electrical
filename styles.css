@@ -41,6 +41,7 @@ ul{
 .header h4{
   padding: 0;
   margin: 0;
+  font-size: 2rem;
 }
 .header img{
   width: 75px;
@@ -196,6 +197,7 @@ padding-bottom: 90PX ;
   padding: 13px 50px 10px 47px;
   color: #ffffff;
 }
+
 /* ----------Reliable, Trusted, and Best Services------------ */
 #Best{
   background-color: #023047;
@@ -233,11 +235,12 @@ padding-bottom: 90PX ;
   font-size: 20px;
   color: #ffffff;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 /* -------------------Our Services -------------------- */
 #Services{
-padding: 0px 80px 40px 80px;
  justify-content: center;
+ padding: 48px 25px 120px 25px;
 }
 #Services h3{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -249,6 +252,7 @@ padding: 0px 80px 40px 80px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   justify-items: center;
+  padding: 50px 20px 30px 20px;
 }
 .ServicesCard{
   background-color: #023047;
@@ -259,15 +263,16 @@ padding: 0px 80px 40px 80px;
   align-items: center;
 }
 .ServicesCard img{
+  background-color: #e76f51;  
   padding: 45px;
   border-radius: 20px;
-  width: 200px;
-  background-color: #e76f51;
+  width: 290px;
 }
 .ServicesCard h4{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
   text-align: center;
+  color: #ffffff;
 
 }
 /* --------------Civil Contract------------------ */
@@ -306,7 +311,23 @@ padding: 0px 80px 40px 80px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
+/* ------------contact------------ */
+#Contact{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fcfcfc;
+    background-color: #023047;
+}
+#map{
+  width: 475px;
+  height: 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+#map h4{
+  font-size: 2rem;
+}
 /* Responsiveness */
 @media only screen and (min-width: 899px) {
   .nav{
@@ -343,15 +364,18 @@ padding: 0px 80px 40px 80px;
       padding: 28px 20px;
   }
 }
-
 /* ------------------------------------------------------------- */
 /* --------------------300 to 899px------------------ */
-@media only screen and (min-width: 300px) and (max-width: 899px)
+@media only screen and (min-width: 280px) and (max-width: 899px)
  {
-    /*-------- welcome */
+/* -----------Navigation bar*/
+
+
+/*-------- welcome */
     #welcome{
-      
     display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
     }
     #WI img{
      width: 375px;
@@ -359,15 +383,13 @@ padding: 0px 80px 40px 80px;
     }
     #WI{
       text-align: center;
-     padding-right: 0;
+      padding-right: 0;
     }
     .WC{
       padding: 30px;
     }
+   
     .WC h3{
-          
-    }
-    .WC h1{
       font-size: 35px;
 
      }
@@ -376,7 +398,7 @@ padding: 0px 80px 40px 80px;
 
      }
      
-    /* ------------Why Choose Our Company */
+/* ------------Why Choose Our Company */
     #advantage{
       padding: 10px;
     }
@@ -421,6 +443,7 @@ padding: 0px 80px 40px 80px;
       padding: 13px 50px 10px 47px;
       color: #ffffff;
     }
+
 /* ----------Reliable, Trusted, and Best Services------------ */
 #Best{
   
@@ -435,6 +458,10 @@ padding: 0px 80px 40px 80px;
 #Best p{
  
   font-size: 23px;
+}
+.B1{
+  display: flex;
+  justify-content: center;
 }
 .B1 img{
   width: 350px;
@@ -455,6 +482,7 @@ padding: 0px 80px 40px 80px;
   font-size: 13px;
   color: #ffffff;
 }
+
 /* ----------------Our Services ------------------ */
 #Services{
   padding: 10px;
@@ -470,7 +498,8 @@ padding: 0px 80px 40px 80px;
  .ServicesCard h4{
    font-size: 2em;
  }
-/* -----------Civil Contract-------------- */
+
+ /* -----------Civil Contract-------------- */
  #Civil{
   margin-top: 3%;
   padding: 0px;
@@ -505,34 +534,42 @@ padding: 0px 80px 40px 80px;
 .Carea li{
   font-size: 16spx;
 }
-	 
+/* --------Contact--------- */
+#Contact{
+  flex-direction: column;
 }
+#map{
+  order: 2;
+  margin-bottom: 100px;
+}
+ }
 /* ----------------------------------------------------------- */
- /* --------------------900 to 1030px------------------ */
- @media only screen and (min-width: 900px) and (max-width: 1300px)
+ /* --------------------900 to 1300px------------------ */
+ @media only screen and (min-width: 900px) and (max-width: 1299px)
  {
    /*-------- welcome */
   #welcome{
     display: block;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 50px 0;
     }
     #WI img{
-      width: 351px;
+      width: 870px;
      padding: 10px;
     }
     #WI{
       text-align: center;
+      padding: 0;
     }
     .WC{
-      padding-left: 15%;
+      padding-left: 10%;
     }
-   
+    
     .WC h1{
       font-size: 50px;
 
      }
      .WC p{
-      font-size: 14PX;
+      font-size: 25PX;
 
      }
       /* ------------Why Choose Our Company */
@@ -544,10 +581,7 @@ padding: 0px 80px 40px 80px;
       font-size: 2rem;
     
     }
-    #OutCard
-    {
-      
-    }
+    
     .card{
       border: 2px;
       border-radius: 10px;
@@ -579,8 +613,9 @@ padding: 0px 80px 40px 80px;
       padding: 13px 50px 10px 47px;
       color: #ffffff;
     }
-	 
-/* ----------Reliable, Trusted, and Best Services------------ */
+
+    /* ----------Reliable, Trusted, and Best Services------------ */
+
 #Best h4{
   font-size: 3rem;
 }
@@ -604,7 +639,7 @@ padding: 0px 80px 40px 80px;
    grid-template-columns: repeat(2,1fr);
    row-gap: 60px;
  }
-	 /* -----------Civil Contract-------------- */
+  /* -----------Civil Contract-------------- */
   #Civil{
     margin-top: 3%;
     padding: 10px;
@@ -635,5 +670,13 @@ padding: 0px 80px 40px 80px;
   .Carea li{
     font-size: 16spx;
   }
+/* ---------Contact------ */
+#Contact{
+  flex-direction: column;
+}
+#map{
+  order: 2;
+  margin-bottom: 100px;
+}
 }
  
